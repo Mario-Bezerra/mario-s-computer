@@ -10,7 +10,11 @@
         <a > Produtos </a>
       </li>
       <li>
-        <a class="badge-carrinho"> Carrinho <i class="fa-solid fa-cart-minus"> </i></a>
+        <a >
+          <i class="fa-solid fa-cart-minus"></i>
+          Carrinho
+          <span class="badge-carrinho">{{carrinhoService.obtemCarrinho().length}}</span>
+        </a>
       </li>
       <li>
         <a > Contato </a>
