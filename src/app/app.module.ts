@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSnackBarModule}  from '@angular/material/snack-bar';
+import { NgxMaskModule } from 'ngx-mask';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {MatSnackBarModule}  from '@angular/material/snack-bar';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    NgxMaskModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
